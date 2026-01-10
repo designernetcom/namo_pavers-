@@ -12614,7 +12614,7 @@ Location:
   top: 7px;
 }
 .attent10-section-area .schedule-boxarea .images2 {
-  top: 10px;
+  top: 5px;
   position: relative;
 }
 .attent10-section-area .schedule-boxarea .images2 .elements37 {
@@ -24418,6 +24418,7 @@ textarea::placeholder{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
   padding: 30px;
   background: #ebebeb;
+  margin-top: 10px;
 }
 .box1 .founder{
   padding-left: 20px;
@@ -24455,6 +24456,89 @@ textarea::placeholder{
         .content-area p {
         color: black !important;
     }
+
+    		.mobile-sidebar {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.mobile-nav-list li ul {
+    position: static;       /* VERY IMPORTANT */
+    display: none;
+    width: 100%;
+    background: #31363b;
+    padding: 10px 15px;
+}
+.mobile-nav-list li:hover > ul {
+	display: block;
+}
+
+
+.social-sticky {
+  position: fixed;
+  top: 70%;
+  right: 15px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.social-sticky a {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Brand Colors */
+.social-sticky .whatsapp {
+  background: #25d366;
+}
+
+.social-sticky .linkedin {
+  background: #0077b5;
+}
+
+.social-sticky .facebook {
+  background: #1877f2;
+}
+
+.social-sticky .instagram {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+}
+
+/* Hover Effect */
+.social-sticky a:hover {
+  transform: scale(1.15);
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .social-sticky {
+    right: 8px;
+  }
+
+  .social-sticky a {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
+
 
 
 /*============= MEMORY CSS AREA ===============*//*# sourceMappingURL=main.css.map */
