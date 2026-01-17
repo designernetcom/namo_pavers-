@@ -6422,6 +6422,7 @@ Location:
   line-height: 26px;
   opacity: 0.8;
   width: 90%;
+  text-align: justify;
 }
 .footer3-sertion-area .footer-logo-area ul li {
   display: inline-block;
@@ -19205,6 +19206,7 @@ Location:
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 30px;
+  text-align: justify;
 }
 .testimonials7-section-area .testimonial-content-slider7 .testimonial-widget-box .auhtor-area {
   display: flex;
@@ -24257,7 +24259,7 @@ Location:
 
 .event3-section-area .content-area p {
   color: #000;
-  width: 78%;
+  width: 100%;
   font-size: 18px;
 }
 .content-area p {
@@ -24362,6 +24364,7 @@ color: black;
   }
   .speakesr-details-content p{
     margin-bottom:20px;
+    text-align: justify;
   }
 .input-area input::placeholder{
   font-size: 15px !important;
